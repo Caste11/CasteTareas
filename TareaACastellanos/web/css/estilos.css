@@ -1,0 +1,89 @@
+.tarea{
+    border:1px solid gray;
+    padding: 10px;
+    position: relative;
+    width: 60%;
+    margin: 2px auto;
+    font-size: 1.5em;
+}
+.texto{
+  color: white;
+}
+
+.papelera{
+    position: absolute;
+    top:10px;
+    right: 5px;
+    color: #999;
+}
+.papelera:hover{
+    color:#444;
+    cursor: pointer;
+}
+#nuevaTarea{
+    display: inline-block;
+    border:1px solid gray;
+    padding: 10px;
+    position: relative;
+    width: 40%;
+    margin: 10px auto;
+    font-size: 1.5em;
+    margin-left: 19%;
+}
+#botonNuevaTarea{
+    display: inline-block;
+    border:1px solid gray;
+    padding: 10px;
+    position: relative;
+    width: 20%;
+    margin: 10px auto;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+#preloaderInsertar{
+    height: 60px;
+    vertical-align: middle;
+    visibility: hidden;
+}
+.preloaderBorrar{
+    position: absolute;
+    top:5px;
+    right: 2px;
+    height: 30px;
+    visibility: hidden;
+}
+
+
+
+.btn-color{
+    background-color: #0e1c36  !important;
+    color: #fff    !important;
+    
+  }
+  
+  .profile-image-pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  
+  
+  .cardbody-color{
+    background-color: #ebf2fa;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+
+  #login{
+    background-image: url(../imagenes/imagendeFondo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  #verTareas{
+    background-image: url(../imagenes/imagenVerTareas.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
